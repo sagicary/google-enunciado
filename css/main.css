@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, p {
+  text-align: left;
+  color: #424242; }
+
 div {
   margin-bottom: -40px;
   text-align: center; }
@@ -26,5 +30,55 @@ div {
 .imagencentro img {
   width: 100%;
   padding: 50px; }
+.imagencentro h2 {
+  padding-left: 50px;
+  margin-top: 0px; }
+.imagencentro h5 {
+  padding-left: 50px;
+  font-weight: bold; }
+.imagencentro p {
+  padding-left: 50px;
+  padding-right: 450px; }
+
+.azul {
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px solid #4285f4; }
+
+.news {
+  padding-left: 50px;
+  margin-bottom: 50px; }
+  .news h6 {
+    padding-top: 30px;
+    font-size: 16px;
+    color: #5f6368;
+    font-weight: bold;
+    padding-left: 15px; }
+    .news h6 span {
+      color: #4285f4;
+      font-size: 12px;
+      font-weight: bold;
+      position: absolute;
+      top: 40px;
+      left: 1150px; }
+  .news h5 {
+    color: lightgrey;
+    font-weight: bold;
+    padding-top: 10px; }
+  .news .titulo {
+    padding-top: 5px; }
+  .news .texto {
+    color: #5f6368; }
+
+.caja {
+  margin-top: 30px;
+  height: 12vh;
+  background-color: lightgrey;
+  padding: 10px; }
+  .caja p {
+    font-weight: bold; }
+  .caja a {
+    font-weight: bold;
+    padding-left: 0px; }
 
 /*# sourceMappingURL=main.css.map */

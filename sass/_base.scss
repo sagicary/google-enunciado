@@ -1,3 +1,11 @@
+$izq: left;
+@if $izq == left{
+	h1, h2, h3, h4, h5, p{
+		text-align: left;
+		color: $titulos;
+	}
+}
+
 div{
 	margin-bottom: -40px;
 	@if $centro == center {
@@ -35,4 +43,65 @@ div{
 		width: 100%;
 		padding: 50px;
 	}
+	h2{
+		padding-left: 50px;
+		margin-top: 0px;
+	}
+	h5{
+		padding-left: 50px;
+		font-weight: bold;
+	}
+	p{
+		padding-left: 50px;
+		padding-right: 450px;
+	}
 }
+.azul{
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 2px solid $azul;
+}
+.news{
+	padding-left: 50px;
+	margin-bottom: 50px;
+	h6{
+		padding-top: 30px;
+		font-size: 16px;
+		color: $grisclaro;
+		font-weight: bold;
+		padding-left: 15px;
+		span{
+			color: $azul;
+			font-size: 12px;
+			font-weight: bold;
+			position: absolute;
+			top: 40px;
+			left: 1150px;
+		}
+	}
+	h5{
+		color: lightgrey;
+		font-weight: bold;
+		padding-top: 10px;
+	}
+	.titulo{
+		padding-top: 5px;
+	}
+	.texto{
+		color: $grisclaro;
+	}
+}
+.caja{
+	margin-top: 30px;
+	height: 12vh;
+	background-color: lightgrey;
+	padding: 10px;
+	p{
+		font-weight: bold;
+	}
+	a{
+		font-weight: bold;
+		padding-left: 0px;
+	}
+}
+
