@@ -1,0 +1,38 @@
+div{
+	margin-bottom: -40px;
+	@if $centro == center {
+		text-align: center;
+	}
+	.center-block{
+		width: 300px;
+		padding-right: 70px;
+		display: inline-block;
+	}
+	span{
+		color: $grisclaro;
+		position: absolute;
+		font-size: 30px;
+		top: 55px;
+		left: 670px;
+	}
+}
+.nav{
+	text-decoration: none;
+	ul{
+		li{
+			display: inline-block;
+			text-decoration: none;
+			cursor: pointer;
+			padding: 5px;
+			margin-top: 5px;
+			color: $grisclaro;
+			font-weight: bold;
+		}
+	}
+}
+.imagencentro{
+	img{
+		width: 100%;
+		padding: 50px;
+	}
+}
