@@ -81,4 +81,21 @@ div {
     font-weight: bold;
     padding-left: 0px; }
 
+.imagenes div img {
+  padding: 15px;
+  width: 90%; }
+.imagenes div h4 {
+  padding-left: 50px;
+  margin-top: 0px; }
+.imagenes div p {
+  padding-left: 50px;
+  margin-top: 0px; }
+  .imagenes div p img {
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    padding: 0px; }
+.imagenes div .espacio {
+  padding-bottom: 15px; }
+
 /*# sourceMappingURL=main.css.map */
