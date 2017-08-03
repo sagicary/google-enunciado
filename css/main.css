@@ -81,21 +81,50 @@ div {
     font-weight: bold;
     padding-left: 0px; }
 
-.imagenes div img {
-  padding: 15px;
-  width: 90%; }
-.imagenes div h4 {
-  padding-left: 50px;
-  margin-top: 0px; }
-.imagenes div p {
-  padding-left: 50px;
-  margin-top: 0px; }
-  .imagenes div p img {
-    width: 20px;
-    height: 25px;
-    display: inline-block;
-    padding: 0px; }
-.imagenes div .espacio {
-  padding-bottom: 15px; }
+.imagenes {
+  margin-bottom: 50px; }
+  .imagenes div img {
+    padding: 15px;
+    width: 90%; }
+  .imagenes div h4 {
+    padding-left: 50px;
+    margin-top: 0px; }
+  .imagenes div p {
+    padding-left: 50px;
+    margin-top: 0px; }
+    .imagenes div p img {
+      width: 20px;
+      height: 25px;
+      display: inline-block;
+      padding: 0px; }
+  .imagenes div .espacio {
+    padding-bottom: 15px; }
+
+.footer {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .footer p {
+    padding-left: 50px; }
+  .footer .negrita {
+    font-weight: bold; }
+  .footer .abajo {
+    margin-bottom: 70px; }
+  .footer ul li {
+    list-style: none;
+    text-align: left; }
+
+.gris {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid lightgrey; }
+
+.logo {
+  width: 40px;
+  height: 40px;
+  display: inline-bl; }
+
+.der {
+  position: absolute;
+  right: -600px; }
 
 /*# sourceMappingURL=main.css.map */

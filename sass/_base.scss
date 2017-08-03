@@ -105,6 +105,7 @@ div{
 	}
 }
 .imagenes{
+	margin-bottom: 50px;
 	div{
 		img{
 			padding: 15px;
@@ -129,4 +130,36 @@ div{
 		}
 	}
 }
-
+.footer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	p{
+		padding-left: 50px;
+	}
+	.negrita{
+		font-weight: bold;
+	}
+	.abajo{
+		margin-bottom: 70px;
+	}
+	ul{
+		li{
+			list-style: none;
+			text-align: left;
+		}
+	}
+}
+.gris{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 1px solid lightgrey;
+}
+.logo{
+	width: 40px;
+	height: 40px;
+	display: inline-bl
+}
+.der{
+	position: absolute;
+	right: -600px;
+}
